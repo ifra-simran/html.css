@@ -1,0 +1,688 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+.container{
+    width: 1140px;
+    margin: auto;
+    
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+header{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.527);
+}
+.header-logo{
+    width: 125px;
+    height: auto;
+    
+}
+.header-logo img{
+    width: 100%;
+    
+}
+.header-nav {
+    margin-top: 35px;
+    margin-left: 35px;
+}
+.header-nav a{
+    text-decoration: none;
+    color: black;
+    margin: 0 3px;
+    padding: 5px 12px;
+    font-size: 25px;
+    border-radius: 20px;
+}
+.header-nav a:hover{
+    background-color:lightseagreen;
+    transition: 0.5sec;
+    box-shadow: 5px 5px 5px rgba(41, 0, 0, 0.438);
+}
+.title {
+    background-image:url(/aidh.jpg); 
+    height:500px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.title-text {
+    color:black;
+    top:50%;
+    margin-left:150px;
+    z-index: 2;
+    text-align: center;
+}
+.title-text h1{
+    font-size: 35px;
+}
+.title-text p{
+    font-size:25px;
+    text-align: center;
+}
+/*end of title*/
+.features{
+    /* background-color: blueviolet; */
+    border: 1px solid rgba(255, 166, 0, 0.623);
+}
+.features .frame{
+     flex: 0 0 24.82%;
+     height: 300px;
+     position: relative;
+     border: 1px solid rgba(226, 43, 43, 0.979);
+}
+.features .frame .face{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.features .frame .face1{
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform-origin:bottom ;
+} 
+.features .frame .face1 img{
+    width: 100px;
+    margin-top: 20px;
+}
+.features .frame .face1 h3{
+    margin: 10px;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 25px;
+}
+.face1 p { 
+    color: white;
+    font-size: 20px;
+}
+.face1:hover{
+    transform: translateY(-100%)rotateX(90deg);
+    transition: 1s;
+}
+.frame:hover{
+    background-color: white;
+}
+.face.face2{
+     justify-content: center;
+    align-items: center;
+    padding:10px;
+    transform-origin: top;
+}
+.face2 p{
+    font-size: 20px;
+    padding: 40px;
+    color:black;
+}
+.face.face2:hover{
+    background-color: rgb(253, 54, 5)
+}
+.about-us{
+    margin-top: 50px;
+}
+.about-us h2{
+    color:black;
+    font-size: 40px;
+    text-align:center ;
+    margin-bottom: 20px;
+
+}
+.about-us h2::after{
+    display:block;
+    height: 5px;
+    width: 100px;
+    background-color: rgb(228, 79, 21);
+    content: " ";
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+.about-us h3{
+    text-align: center;
+    font-size: 30px;
+}
+.about-us p{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+.about-us img{
+    width: 900px;
+    height: 500px;
+    margin-left: 150px; 
+    margin-bottom: 10px; 
+    border-radius: 20px; 
+}
+.our{
+    margin-top:30px ;
+
+}
+.our h1{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.our h1::after{
+    display: block;
+    height: 5px;
+    width: 250px;
+    background-color: orangered;
+    content: " ";
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+.our h3{
+    text-align: center;
+    font-size: 30px;
+}
+.our p{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 100px;
+
+}
+.fore .container{
+    /* background-color: orchid; */
+    /* border: 1px solid orangered; */
+}
+.fore  .frame1{
+    flex: 0 0 30%;
+    height: 300px;
+    position: relative;
+    border: 1px solid orangered;
+}
+.fore .frame1 .face1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center; 
+}
+
+.fore .frame1 .facea{
+    background-color: black;
+    justify-content: center;
+    align-items: center; 
+    z-index: 1;
+    transform-origin: left;
+}
+
+
+
+.masterimg {
+    position: relative;
+    height: 1050px;
+    width: 1350px;
+    margin-bottom: 40px;
+    margin-left: 65px;
+    
+}
+.masteroverlay{
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 100%;
+      background-color: black;
+      opacity: 0.5;
+      z-index: 1;
+}
+.masterimg .c1{
+    width: 600px;
+    
+}
+.c1 .img1{
+    width: 100%;
+    height:50%;
+}
+.c1 .img1 img{
+     width: 100%;
+     height: 100%; 
+}
+.masterimg .c2{
+     width:750px;
+     height:1050px;
+}  
+
+.c2 .img2{
+    width: 100%;
+    height: 100%;
+}
+.c2 .img2 img {
+    width: 100%;
+    height: 100%;
+} 
+.c1 .img1 .abc-txt1{
+    position: absolute;
+    top: 20%;
+    left: 18%;
+    z-index: 2;
+    color:white;
+    font-size: 23px;
+}
+.c1 .img1 .abc-txt2{
+    position: absolute;
+    top: 70%;
+    left: 15%;
+    z-index: 2;
+    color:white;
+    font-size: 25px;
+}
+.c2 .img2 .abc-txt3{
+    position: absolute;
+    top: 40%;
+    left: 68%;
+    z-index: 2;
+    color:white;
+    font-size: 25px;
+}
+
+
+/* end */
+.what{
+    margin-top:30px ;
+
+}
+.what h1{
+    color: black;
+    font-size: 40px;
+
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+.what h1::after{
+    display: block;
+    height: 5px;
+    width: 250px;
+    background-color: orangered;
+    content: " ";
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 10px;
+
+}
+
+.what p{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 30px;
+
+}
+/* end */
+.boxx{
+    flex:0 0 29.6%;
+    width: 35%;
+    height: 40%;
+    border: 0.3px solid lightslategray;
+    margin: 20px;
+   
+}
+.boxx img{
+    width:100%;
+    height: 10%;
+    margin-left: 0.1px;
+}
+h4{
+    font-size:25px;
+    padding: 0px 0px 10px 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    padding: 10px 0px 0px 0px;
+    text-align:center;
+}
+.border {
+    border-bottom : 0.5px solid rgb(124, 109, 109);
+    
+} 
+/* end */
+.if{
+    width: auto;
+}
+.if img{
+    width: 90%;
+    height: 80%;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+.if h3{
+    font-size: 30px;
+    text-align: center;
+}
+.br{
+    border: 0.5px solid rgb(0, 0, 0);
+    max-width: 90%;
+    margin-left: 5%;
+    text-align: left;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    
+}
+.client{
+    margin-top:20px ;
+
+}
+.client h1{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+.client h1::after{
+    display: block;
+    height: 5px;
+    width: 180px;
+    background-color: orangered;
+    content: " ";
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 10px;
+
+}
+
+.client p{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.web {
+    position: relative;
+    width: 340px;
+    height: 200px;
+    margin: 20px;
+    margin-top: 10px;
+    
+    
+}
+
+.weboverlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    opacity: 0.2;
+    z-index: 1;
+   
+}
+
+.pic  img{
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+    
+}
+/* end */
+.rifa {
+    position: relative;
+    width: 1100px;
+    height: 445px;
+    /* margin: 20px; */
+    margin-top: 10px;
+    margin-bottom: 80px;
+    
+    
+}
+
+.rifaoverlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    opacity: 0.2;
+    z-index: 1;
+   
+}
+ .rifa h1{
+        color: black;
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 20PX;
+    
+    }
+    .rifa h1::after{
+        display: block;
+        height: 5px;
+        width: 180px;
+        background-color: orangered;
+        content: " ";
+        margin: 5PX auto;
+        margin-top: 10px;
+        border-radius: 10px;
+    
+    }
+    h5{
+        font-size: 25px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        color: black;
+        text-align: center;
+    }
+    .rifa .line{
+        border: 1px solid black;
+        margin  : 0px 30px;
+        padding: 30px;
+        background-color: rgb(24, 19, 19);
+    }
+    .rifa p{
+        color: white;
+        text-align: center;    
+    }
+    /* end */
+    .iram {
+        position: relative;
+        width: 1450px;
+        height: 500px;
+        margin: 20px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    .iramoverlay {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        background-color: gray;
+        opacity: 0.2;
+        z-index: 1;
+       
+    }
+    .iram img {
+        height: 100%;
+        width: 100%;
+        
+    }
+    .iram  .dady {
+        position: absolute;
+        top: 10px;
+        left: 200px;
+        font-size: 30px;
+        font-weight: 40px;
+        color:rgb(255, 255, 255);
+        padding-top: 100px;
+        padding-left: 300px;
+        text-align: center;
+        z-index: 2;
+    }
+    /* end */
+    .jam{
+        flex: 0 0 100%;
+        display: flex;
+    }
+    .jam .photo{
+        flex: 0 0 50%;
+         margin: 20px 20px;
+    }
+    .photo img{
+        margin-top: 50px;
+        width: 70%;
+        height: 80%;
+    }
+    .jam .par{
+        flex: 0 0 50%;
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+    .par h1{
+        font-size: 40px;
+        font-weight: 30px;
+
+    }
+    .par p{
+        font-size: 20px;
+        text-align: left;
+        padding: 5px;
+    }
+    li{
+        font-size: 20px;
+        padding-top: 20px;
+        padding-left: 0px;
+    }
+    /* end */
+    
+    .za {
+        border: 0.5 solid black;
+        background-color: black;
+        width: 100%;
+    }
+    .col img{
+        
+        margin-top:10px;
+        margin-bottom: 10px;
+        margin-right: 40px;
+        opacity: 1;
+        width: 15%;
+        height: 160px;
+
+    }
+    
+    .insa{
+        
+        border: 0.5 solid black;
+        background-color: black;
+        width: 100%;
+        height: 600px;
+        margin-top: 20px;
+        border-right: 0.5px solid white;
+    }
+     .insa img{
+        width: 10%;
+        height: 20%;
+        margin-left: 100px;
+        margin-top: 30px;
+    }
+    .insa .ai{
+        flex: 0 0 25%;
+        color: white;
+        top: 1px;
+        left:10px;
+        margin-left: 100px;
+        margin-right: 40px;
+        text-align:left;
+        padding-right: 40px;
+    }
+    .ai p{
+        text-align: left;
+    }
+.bd{
+    border-right: 3px solid white;
+    margin-right: 40px;
+    height: 70%;
+}
+.insa .soc{
+    flex: 0 0 25%;
+    text-align: center;
+    color: white;
+   padding-right:40px ;
+}
+ .insa h1{
+    font-size: 40px;
+    font-weight: 30px;
+    top: 0px;
+   
+}
+.tt{
+    display: flex;
+}
+ .tt .rr .fa {
+    flex: 0 0 10%;
+    color: rgb(205, 39, 238);
+    font-size: 40px;
+    margin-left: 110px;
+    margin-right: 25px; 
+    
+
+}
+
+.tt .hh .fa  {
+    color:blue;
+    top: 5px;
+    font-size: 40px;
+    margin-right: 25px; 
+    
+      
+}
+.tt .ii .fa  {
+    float: right;
+    color:yellow;
+     font-size: 40px;
+    margin-right: 25px;
+
+}
+
+.table{
+    flex: 0 0 25%;
+    border: 0.5px solid rgb(117, 109, 109);
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 300px;
+    margin-left: 30px;
+    padding-bottom: 30px;
+}
+ .table .for {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    padding-bottom: 30px;
+    padding: 10px;
+  
+}
+ .table .for textarea{
+     width: 100%;
+     height: 150px;
+    resize: none;
+    padding: 3px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.table .for a{
+    text-decoration: none;
+    color: #000;
+    margin-left: 90px;
+    background-color: rgb(0, 38, 255);
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+/* phone desing */
+@media only screen and (max-width:749px){
+    .container{
+        width: 700px;
+    }
+   
+}
